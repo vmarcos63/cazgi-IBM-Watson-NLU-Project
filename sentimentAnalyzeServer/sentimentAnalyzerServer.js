@@ -10,7 +10,7 @@ function getNLUInstance() {
     const {IamAuthenticator} = require('ibm-watson/auth');
 
     const naturalLanguageUnderstanding = new NaturalLanguageUnderstandingV1({
-        version '2021-07-04',
+        version: '2021-07-04',
         authenticator: new IamAuthenticator({
             apikey: api_key,
         }),
